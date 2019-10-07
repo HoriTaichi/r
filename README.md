@@ -13,3 +13,15 @@ cd r
 docker-compose build
 ```
 
+## Rを動かしてみる
+
+### コンテナに入る
+```
+docker-compose exec app bash
+```
+
+### R実行
+```
+Rscript code/Pypgm/Hello.r
+```
+code/Pypgm/Hello.rはHelloWorldを表示するスクリプトになります。
