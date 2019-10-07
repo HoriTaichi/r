@@ -32,3 +32,24 @@ docker-compose exec app bash
 Rscript code/Pypgm/Hello.r
 ```
 code/Pypgm/Hello.rはHelloWorldを表示するスクリプトになります。
+
+
+## Rを使ってSlack送信を行う
+
+slackrというライブラリのインストールを行います（１回のみ）
+```
+cd r
+docker-compose exec app bash
+R
+install.packages("slackr")
+```
+※国名がきかれるのでJapanの数字を入力してEnterをおす
+
+
+slackrライブラリを使用するためにスクリプトには下記を記載
+```
+library(slackr)
+```
+
+詳しくはサンプル「code/Pypgm/SlackSendTest.r」をみてください。
+
