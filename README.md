@@ -62,5 +62,6 @@ install.packages("tidyverse")
 ```
 ※国名がきかれるのでJapanの数字を入力してEnterをおす
 
+詳しくはサンプル「code/Pypgm/Ggplot2Test.r」をみてください。
 
 
