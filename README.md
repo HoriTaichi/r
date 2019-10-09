@@ -53,3 +53,14 @@ library(slackr)
 
 詳しくはサンプル「code/Pypgm/SlackSendTest.r」をみてください。
 
+## ggplot2を使ってグラフを描画する
+
+下記のライブラリのインストールを行います（１回のみ）
+```
+# ggplot2を取得する最も簡単な方法は、tidyverse全体をインストールすることです:
+install.packages("tidyverse")
+```
+※国名がきかれるのでJapanの数字を入力してEnterをおす
+
+
+
